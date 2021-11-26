@@ -65,20 +65,6 @@ function Current() {
         loadForecast();
     }, [])
 
-
-
-    // {
-    //     "city": null,
-    //     "country": "Brazil",
-    //     "district": "Jardim Vale Do Sol",
-    //     "isoCountryCode": "BR",
-    //     "name": "56",
-    //     "postalCode": "09843-250",
-    //     "region": "São Paulo",
-    //     "street": "Rua Curitiba",
-    //     "subregion": "São Bernardo do Campo",
-    //     "timezone": null,
-
     const current = forecast?.current?.weather[0];
     console.log(location)
     return (
